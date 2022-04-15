@@ -60,6 +60,6 @@
     - debug: 
         var: command_output.stdout_lines
     
-    - name: Docker Build Image
-      command:
-        cmd: docker build -t calculator .
+    # - name: Docker Build Image
+    #   command:
+    #     cmd: docker build -t calculator .
