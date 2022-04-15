@@ -1,0 +1,65 @@
+---
+- hosts: ubuntu
+  become: true
+  vars:
+    container_count: 1
+    default_container_name: docker
+    default_container_image: hello-world
+    default_container_command: run
+    ansible_python_interpreter: auto
+
+  tasks:
+    - name: Install aptitude
+      apt:
+        name: aptitude
+        state: latest
+        update_cache: true
+
+    - name: Install required system packages
+      apt:
+        pkg:
+          - apt-transport-https
+          - ca-certificates
+          - curl
+          - software-properties-common
+          - python3-pip
+          - virtualenv
+          - python3-setuptools
+        state: latest
+        update_cache: true
+
+    - name: Add Docker GPG apt Key
+      apt_key:
+        url: https://download.docker.com/linux/ubuntu/gpg
+        state: present
+
+    - name: Add Docker Repository
+      apt_repository:
+        repo: deb https://download.docker.com/linux/ubuntu focal stable
+        state: present
+
+    - name: Update apt and install docker-ce
+      apt:
+        name: docker-ce
+        state: latest
+        update_cache: true    
+
+    - name: Give permissions to the docker file
+      ansible.builtin.file:
+        path: /var/run/docker.sock
+        mode: '777'
+    
+    - name: Docker Pull Image
+      command:
+        cmd: docker pull "{{ default_container_image }}"
+    
+    - name: Docker Run Hello-World
+      shell: docker run "{{ default_container_image }}"
+      register: command_output
+
+    - debug: 
+        var: command_output.stdout_lines
+    
+    - name: Docker Build Image
+      command:
+        cmd: docker build -t calculator .
