@@ -8,7 +8,7 @@ public class Calculator
         BigInteger res;
         if(N<0)
         {
-            res = new BigInteger("NanN");
+            res = new BigInteger("-1");
         }
         else
         {

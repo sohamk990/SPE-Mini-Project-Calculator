@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34246193-8379-4bd9-b29e-83eaad60ffbc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/factorial_test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/factorial_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/factorial_test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/loge_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/loge_test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/power_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/power_test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/root_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/root_test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/IMT2018073-Calculator-latest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/factorial_test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/factorial_test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/loge_test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/loge_test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/power_test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/power_test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/root_test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/root_test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +53,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.root_test">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Calculator" />
       <module name="IMT2018073-Calculator" />
@@ -49,8 +61,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="factorial_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IMT2018073-Calculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="factorial_test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="root_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IMT2018073-Calculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="root_test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.root_test" />
+        <item itemvalue="JUnit.factorial_test" />
         <item itemvalue="Application.Calculator" />
       </list>
     </recent_temporary>
