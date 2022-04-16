@@ -1,13 +1,20 @@
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.math.BigInteger;
 import java.util.Scanner;
 
 public class Calculator
 {
+    private static final Logger logger = LogManager.getLogger(Calculator.class);
+
     static BigInteger factorial(int N)
     {
+        logger.info("[FACTORIAL] - " + N);
         BigInteger res;
         if(N<0)
         {
+            logger.error("factorial function does not work with negative number");
             res = new BigInteger("-1");
         }
         else
@@ -18,29 +25,46 @@ public class Calculator
                 res = res.multiply(BigInteger.valueOf(i));
             }
         }
+        logger.info("[RESULT - FACTORIAL] - " + res);
         return res;
     }
 
     static double root(double n)
     {
-        double res;
-        res = Math.sqrt(n);
+        logger.info("[SQRT] - " + n);
+        if(n < 0)
+        {
+            logger.error("square root function is given negative number");
+        }
+
+        double res = Math.sqrt(n); ;
+        logger.info("[RESULT - SQUARE ROOT] - " + n);
         return res;
     }
 
     static double loge(double n)
     {
         double res;
+        logger.info("[LOG] - " + n);
+        if(n < 0)
+        {
+            logger.error("natural log function does not work with negative number");
+            res = -1;
+        }
         res = Math.log(n);
+        logger.info("[RESULT - NATURAL LOG] - " + res);
         return res;
     }
 
     static double power(double x, double y)
     {
-        double res;
-        res = Math.pow(x, y);
+        double res = Math.pow(x, y);
+        logger.info("[POWER] - " + x + ", " + y);
+        logger.info("[RESULT - POWER] - " + res);
         return res;
     }
+
+
 
     public static void main(String[] args)
     {
@@ -88,6 +112,7 @@ public class Calculator
         }
         else
         {
+            logger.error("[ERROR] - wrong option selected");
             System.out.println("WRONG OPTION IS SELECTED !!!");
         }
     }
