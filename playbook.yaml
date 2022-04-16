@@ -4,7 +4,7 @@
   vars:
     container_count: 1
     default_container_name: docker
-    default_container_image: hello-world
+    default_container_image: imt2018073/calculator
     default_container_command: run
     ansible_python_interpreter: auto
 
