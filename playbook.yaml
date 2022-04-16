@@ -2,7 +2,7 @@
 - hosts: ubuntu
   become: true
   vars:
-    default_container_image: imt2018073/calculator
+    image_name: imt2018073/calculator
     ansible_python_interpreter: auto
 
   tasks:
@@ -59,4 +59,4 @@
 
     - name: Docker Pull Image
       command:
-        cmd: docker pull "{{ default_container_image }}"
+        cmd: docker pull "{{ image_name }}"
