@@ -3,8 +3,6 @@
   become: true
   vars:
     default_container_image: imt2018073/calculator
-    docker_username: imt2018073
-    docker_password: Ass@12345
     ansible_python_interpreter: auto
 
   tasks:
@@ -58,11 +56,7 @@
 
     - debug: 
         var: command_output.stdout_lines
-    
-    - name: Docker login
-      command:
-        cmd: docker login -u "{{ docker_username }}" -p "{{ docker_password}}"
-    
+
     - name: Docker Pull Image
       command:
         cmd: docker pull "{{ default_container_image }}"
