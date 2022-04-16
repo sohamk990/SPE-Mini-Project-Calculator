@@ -2,10 +2,9 @@
 - hosts: ubuntu
   become: true
   vars:
-    container_count: 1
-    default_container_name: docker
     default_container_image: imt2018073/calculator
-    default_container_command: run
+    docker_username: imt2018073
+    docker_password: Ass@12345
     ansible_python_interpreter: auto
 
   tasks:
@@ -44,7 +43,7 @@
         state: latest
         update_cache: true    
 
-    - name: Give permissions to the docker file
+    - name: Getting Docker Access
       ansible.builtin.file:
         path: /var/run/docker.sock
         mode: '777'
@@ -62,7 +61,7 @@
     
     - name: Docker login
       command:
-        cmd: docker login -u imt2018073 -p Ass@12345
+        cmd: docker login -u "{{ docker_username }}" -p "{{ docker_password}}"
     
     - name: Docker Pull Image
       command:
