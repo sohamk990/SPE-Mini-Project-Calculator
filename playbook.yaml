@@ -51,15 +51,18 @@
     
     - name: Docker Pull Image
       command:
-        cmd: docker pull "{{ default_container_image }}"
+        cmd: docker pull hello-world
     
     - name: Docker Run Hello-World
-      shell: docker run "{{ default_container_image }}"
+      shell: docker run hello-world
       register: command_output
 
     - debug: 
         var: command_output.stdout_lines
-    
+      
+    - name: Docker Pull Image
+      command:
+        cmd: docker pull "{{ default_container_image }}"
     # - name: Docker Build Image
     #   command:
     #     cmd: docker build -t calculator .
