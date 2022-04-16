@@ -59,10 +59,11 @@
 
     - debug: 
         var: command_output.stdout_lines
-      
+    
+    - name: Docker login
+      command:
+        cmd: docker login -u imt2018073 -p Ass@12345
+    
     - name: Docker Pull Image
       command:
         cmd: docker pull "{{ default_container_image }}"
-    # - name: Docker Build Image
-    #   command:
-    #     cmd: docker build -t calculator .
