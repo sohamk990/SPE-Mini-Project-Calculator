@@ -114,3 +114,69 @@
 16/Apr/2022:21:51:35 082 [Calculator.java] [INFO] Calculator [RESULT - POWER] - -8.0
 16/Apr/2022:21:51:35 083 [Calculator.java] [INFO] Calculator [POWER] - -0.5, -3.0
 16/Apr/2022:21:51:35 083 [Calculator.java] [INFO] Calculator [RESULT - POWER] - -8.0
+17/Apr/2022:12:35:50 005 [Calculator.java] [INFO] Calculator [SQRT] - -6.0
+17/Apr/2022:12:35:50 008 [Calculator.java] [ERROR] Calculator square root function is given negative number
+17/Apr/2022:12:35:50 008 [Calculator.java] [INFO] Calculator [RESULT - SQUARE ROOT] - -6.0
+17/Apr/2022:12:35:50 009 [Calculator.java] [INFO] Calculator [SQRT] - 25.0
+17/Apr/2022:12:35:50 009 [Calculator.java] [INFO] Calculator [RESULT - SQUARE ROOT] - 25.0
+17/Apr/2022:12:35:50 009 [Calculator.java] [INFO] Calculator [SQRT] - 3.0
+17/Apr/2022:12:35:50 009 [Calculator.java] [INFO] Calculator [RESULT - SQUARE ROOT] - 3.0
+17/Apr/2022:12:35:50 010 [Calculator.java] [INFO] Calculator [LOG] - -6.0
+17/Apr/2022:12:35:50 011 [Calculator.java] [ERROR] Calculator natural log function does not work with negative number
+17/Apr/2022:12:35:50 011 [Calculator.java] [INFO] Calculator [RESULT - NATURAL LOG] - NaN
+17/Apr/2022:12:35:50 011 [Calculator.java] [INFO] Calculator [LOG] - 10.0
+17/Apr/2022:12:35:50 011 [Calculator.java] [INFO] Calculator [RESULT - NATURAL LOG] - 2.302585092994046
+17/Apr/2022:12:35:50 013 [Calculator.java] [INFO] Calculator [FACTORIAL] - -5
+17/Apr/2022:12:35:50 013 [Calculator.java] [ERROR] Calculator factorial function does not work with negative number
+17/Apr/2022:12:35:50 014 [Calculator.java] [INFO] Calculator [RESULT - FACTORIAL] - -1
+17/Apr/2022:12:35:50 014 [Calculator.java] [INFO] Calculator [FACTORIAL] - 5
+17/Apr/2022:12:35:50 014 [Calculator.java] [INFO] Calculator [RESULT - FACTORIAL] - 120
+17/Apr/2022:12:35:50 015 [Calculator.java] [INFO] Calculator [FACTORIAL] - 10
+17/Apr/2022:12:35:50 015 [Calculator.java] [INFO] Calculator [RESULT - FACTORIAL] - 3628800
+17/Apr/2022:12:35:50 015 [Calculator.java] [INFO] Calculator [FACTORIAL] - 20
+17/Apr/2022:12:35:50 015 [Calculator.java] [INFO] Calculator [RESULT - FACTORIAL] - 2432902008176640000
+17/Apr/2022:12:35:50 016 [Calculator.java] [INFO] Calculator [FACTORIAL] - 50
+17/Apr/2022:12:35:50 016 [Calculator.java] [INFO] Calculator [RESULT - FACTORIAL] - 30414093201713378043612608166064768844377641568960512000000000000
+17/Apr/2022:12:35:50 016 [Calculator.java] [INFO] Calculator [FACTORIAL] - 0
+17/Apr/2022:12:35:50 017 [Calculator.java] [INFO] Calculator [RESULT - FACTORIAL] - 1
+17/Apr/2022:12:35:50 018 [Calculator.java] [INFO] Calculator [POWER] - 2.0, 3.0
+17/Apr/2022:12:35:50 018 [Calculator.java] [INFO] Calculator [RESULT - POWER] - 8.0
+17/Apr/2022:12:35:50 018 [Calculator.java] [INFO] Calculator [POWER] - 0.5, -3.0
+17/Apr/2022:12:35:50 019 [Calculator.java] [INFO] Calculator [RESULT - POWER] - 8.0
+17/Apr/2022:12:35:50 019 [Calculator.java] [INFO] Calculator [POWER] - -2.0, 3.0
+17/Apr/2022:12:35:50 019 [Calculator.java] [INFO] Calculator [RESULT - POWER] - -8.0
+17/Apr/2022:12:35:50 020 [Calculator.java] [INFO] Calculator [POWER] - -0.5, -3.0
+17/Apr/2022:12:35:50 020 [Calculator.java] [INFO] Calculator [RESULT - POWER] - -8.0
+17/Apr/2022:12:37:55 529 [Calculator.java] [INFO] Calculator [SQRT] - -6.0
+17/Apr/2022:12:37:55 532 [Calculator.java] [ERROR] Calculator square root function is given negative number
+17/Apr/2022:12:37:55 532 [Calculator.java] [INFO] Calculator [RESULT - SQUARE ROOT] - -6.0
+17/Apr/2022:12:37:55 533 [Calculator.java] [INFO] Calculator [SQRT] - 25.0
+17/Apr/2022:12:37:55 534 [Calculator.java] [INFO] Calculator [RESULT - SQUARE ROOT] - 25.0
+17/Apr/2022:12:37:55 534 [Calculator.java] [INFO] Calculator [SQRT] - 3.0
+17/Apr/2022:12:37:55 534 [Calculator.java] [INFO] Calculator [RESULT - SQUARE ROOT] - 3.0
+17/Apr/2022:12:37:55 536 [Calculator.java] [INFO] Calculator [LOG] - -6.0
+17/Apr/2022:12:37:55 536 [Calculator.java] [ERROR] Calculator natural log function does not work with negative number
+17/Apr/2022:12:37:55 537 [Calculator.java] [INFO] Calculator [RESULT - NATURAL LOG] - NaN
+17/Apr/2022:12:37:55 537 [Calculator.java] [INFO] Calculator [LOG] - 10.0
+17/Apr/2022:12:37:55 537 [Calculator.java] [INFO] Calculator [RESULT - NATURAL LOG] - 2.302585092994046
+17/Apr/2022:12:37:55 539 [Calculator.java] [INFO] Calculator [FACTORIAL] - -5
+17/Apr/2022:12:37:55 539 [Calculator.java] [ERROR] Calculator factorial function does not work with negative number
+17/Apr/2022:12:37:55 540 [Calculator.java] [INFO] Calculator [RESULT - FACTORIAL] - -1
+17/Apr/2022:12:37:55 540 [Calculator.java] [INFO] Calculator [FACTORIAL] - 5
+17/Apr/2022:12:37:55 540 [Calculator.java] [INFO] Calculator [RESULT - FACTORIAL] - 120
+17/Apr/2022:12:37:55 541 [Calculator.java] [INFO] Calculator [FACTORIAL] - 10
+17/Apr/2022:12:37:55 541 [Calculator.java] [INFO] Calculator [RESULT - FACTORIAL] - 3628800
+17/Apr/2022:12:37:55 542 [Calculator.java] [INFO] Calculator [FACTORIAL] - 20
+17/Apr/2022:12:37:55 542 [Calculator.java] [INFO] Calculator [RESULT - FACTORIAL] - 2432902008176640000
+17/Apr/2022:12:37:55 542 [Calculator.java] [INFO] Calculator [FACTORIAL] - 50
+17/Apr/2022:12:37:55 543 [Calculator.java] [INFO] Calculator [RESULT - FACTORIAL] - 30414093201713378043612608166064768844377641568960512000000000000
+17/Apr/2022:12:37:55 543 [Calculator.java] [INFO] Calculator [FACTORIAL] - 0
+17/Apr/2022:12:37:55 544 [Calculator.java] [INFO] Calculator [RESULT - FACTORIAL] - 1
+17/Apr/2022:12:37:55 545 [Calculator.java] [INFO] Calculator [POWER] - 2.0, 3.0
+17/Apr/2022:12:37:55 546 [Calculator.java] [INFO] Calculator [RESULT - POWER] - 8.0
+17/Apr/2022:12:37:55 546 [Calculator.java] [INFO] Calculator [POWER] - 0.5, -3.0
+17/Apr/2022:12:37:55 547 [Calculator.java] [INFO] Calculator [RESULT - POWER] - 8.0
+17/Apr/2022:12:37:55 547 [Calculator.java] [INFO] Calculator [POWER] - -2.0, 3.0
+17/Apr/2022:12:37:55 547 [Calculator.java] [INFO] Calculator [RESULT - POWER] - -8.0
+17/Apr/2022:12:37:55 548 [Calculator.java] [INFO] Calculator [POWER] - -0.5, -3.0
+17/Apr/2022:12:37:55 548 [Calculator.java] [INFO] Calculator [RESULT - POWER] - -8.0

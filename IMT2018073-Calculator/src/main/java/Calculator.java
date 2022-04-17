@@ -42,7 +42,7 @@ public class Calculator
         return res;
     }
 
-    static double loge(double n)
+    static double log(double n)
     {
         double res;
         logger.info("[LOG] - " + n);
@@ -95,7 +95,7 @@ public class Calculator
         {
             System.out.print("Enter the Number: ");
             double x = scan.nextDouble();
-            System.out.println("Natural log of " + x + " is: " + loge(x));
+            System.out.println("Natural log of " + x + " is: " + log(x));
         }
         else if(op==4)
         {
