@@ -12,7 +12,6 @@ public class power_Test
         System.out.println("starting power test");
         System.out.println("===============================================");
     }
-
     @Test
     public void positive_and_positive()
     {
@@ -20,7 +19,6 @@ public class power_Test
         System.out.println("Test Case 1: Power of positive and positive numbers");
         assertEquals("power of 2 and 3 is not working correctly",8,calc.power(2, 3),0.00001);
     }
-
     @Test
     public void positive_and_negative()
     {
@@ -28,7 +26,6 @@ public class power_Test
         System.out.println("Test Case 2: Power of positive and negative numbers");
         assertEquals("power of -2 and 3 is not working correctly",8,calc.power(0.5, -3),0.00001);
     }
-
     @Test
     public void negative_and_positive()
     {
@@ -36,7 +33,6 @@ public class power_Test
         System.out.println("Test Case 3: Power of negative and positive numbers");
         assertEquals("power of -0.5 and -3 is not working correctly",-8,calc.power(-2, 3),0.00001);
     }
-
     @Test
     public void negative_and_negative()
     {

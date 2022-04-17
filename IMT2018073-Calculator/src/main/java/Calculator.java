@@ -95,7 +95,7 @@ public class Calculator
         {
             System.out.print("Enter the Number: ");
             double x = scan.nextDouble();
-            System.out.println("Natural log of " + x + " is: " + log(x));
+            System.out.println("Natural log of " + x + " is: " + log    (x));
         }
         else if(op==4)
         {
