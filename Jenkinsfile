@@ -58,7 +58,7 @@ pipeline {
         {
             steps
             {
-                ansiblePlaybook inventory: './hosts', limit: 'ubuntu', playbook: './playbook.yaml'
+                ansiblePlaybook disableHostKeyChecking: true, inventory: './hosts', limit: 'ubuntu', playbook: './playbook.yaml'
             }
         }
     }
