@@ -46,7 +46,7 @@ pipeline {
             {
                 script
                 {
-                    withDockerRegistry(credentialsId: 'b923ed35-62ad-4912-84db-8f7a3101b1e3', url: 'https://docker.io/imt2018073/calculator')
+                    withDockerRegistry(credentialsId: 'b923ed35-62ad-4912-84db-8f7a3101b1e3', url: 'https://docker.io/imt2018073/calculator/')
                     {
                         dockerimage.push();    
                     }
